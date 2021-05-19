@@ -45,7 +45,7 @@ public class UserService {
 		
 		User user = new User();
 		UserProfile userProfile = new UserProfile();
-		
+		//this is for practice
 		user.setEmail(userRegistrationRequest.getEmail());
 		user.setPassword(userRegistrationRequest.getPassword());
 		user.getUserRoles().add(userRole);
